@@ -75,6 +75,5 @@ uid=0(root) gid=0(root) context=u:r:shell:s0
 ```
 Anyway, using `su root` from the `shell` user just switches to root ¯\\\_(ツ)_/¯.
 
-#### EDL via UART pins
-Previously, [AlienWolfx's repo](https://github.com/AlienWolfX/UZ801-USB_MODEM) used to mentiond that you can ented "EDL mode" by shorting the GND and VCC connector.  
-I didn't try that myself but that info might be helpful to some future reader.
+#### EDL via USB pins
+As mentioned in [AlienWolfx's repo](https://github.com/AlienWolfX/UZ801-USB-MODEM/blob/main/wiki/Firmware\(Dump_and_Restore\).md), you can enter "EDL mode" by shorting the GND and D+ pins on the USB connector. This has been confirmed on at least two UZ801 v3.2 boards.
